@@ -2,6 +2,7 @@
 A restaurant ordering application for Android designed to allow customers to make their orders and payments while sitting in their tables. 
 
 The application has three screens (activities). The first one will display your tables as Buttons. The second one will be activated by tapping on a table (Button), in order to accept an order from that table. The third one will be activated by long pressing on a table (Button), in order to accept a payment from that table.
+
 Note 1: A table may make multiple orders (e.g. when the company orders another round, or a new customer joins the company). CTower is responsible for merging these multiple orders.
 Note 2: A table may pay an order partially (e.g. when a member of the company leaves earlier). CTower is responsible for monitoring the remainder of a table.
 
